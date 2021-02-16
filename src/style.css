@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  margin: auto;
+  margin-top: 20px;
+  height: 400px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#symbol {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+#symbol1 {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  transform: rotate(-180deg);
+}
+#number {
+  text-align: center;
+  padding-top: 150px;
+}
+
+span {
+  font-size: 50px;
+}
