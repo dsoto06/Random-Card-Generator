@@ -13,6 +13,16 @@ window.onload = function() {
   let random2 = number[Math.floor(Math.random() * number.length)];
   let random3 = random1;
 
+  //   card color
+  if (random1 == symbol[1] || random3 == symbol[2]) {
+    document.getElementById("symbol").style.color = "red";
+    document.getElementById("symbol1").style.color = "red";
+  } else {
+    document.getElementById("symbol").style.color = "black";
+    document.getElementById("symbol1").style.color = "black";
+  }
+  //   card color
+
   document.querySelector("#symbol").innerHTML = random1;
   document.querySelector("#number").innerHTML = random2;
   document.querySelector("#symbol1").innerHTML = random3;
